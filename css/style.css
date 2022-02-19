@@ -1,0 +1,165 @@
+:root{
+    --verydarkbluebg: hsl(217, 54%, 11%);
+    --verydarkbluecard: hsl(216, 50%, 16%);
+    --verydarkblueline: hsl(215, 32%, 27%);
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --white: hsl(0, 0%, 100%)
+}
+* {
+  
+  }
+body{
+    background-color: var(--verydarkbluebg);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+.card{
+    position: absolute;
+    background-color: var(--verydarkbluecard);
+    height: 500px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+.nft img{
+    width: 260px;
+    border-radius: 5%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px 0 0 0;
+}
+.nft-name h1{
+    color: var(--white);
+    width: 250px;
+    position: relative;
+    left: 49%;
+    transform: translate(-50%);
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+.nft-name h1:hover{
+  color: var(--cyan);
+  cursor: pointer;
+  
+}
+.nft-desc p{
+    font-weight: 400;
+    width: 250px;
+    position: relative;
+    left: 49%;
+    transform: translate(-50%);
+    text-align: left;
+    color: var(--softblue);
+    opacity: 60%;
+}
+.items{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 3px;
+    
+}
+.items div {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  }
+  
+  .items div img {
+    width: 20px;
+    height: 20px;
+
+  }
+  .items div h2 {
+    margin: 0 5px;
+    width: 100%;
+    text-overflow: clip;
+  }
+  .nft-time-left {
+    margin-left: -2em;
+  }
+  .nft-time-left h2 {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--softblue);
+    opacity: 60%;
+    margin-left: -2em;
+  }
+.nft-time-left img {
+  
+  margin-left: 5em;
+}  
+
+.etherium h2{
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(178, 100%, 50%);
+   
+   
+}
+.etherium img {
+    margin-left: 20px;
+    
+}
+hr{
+  
+    width: 90%;
+    border: none;
+    border-top: 1px solid var(--verydarkblueline);
+    margin: 15px;
+}
+
+.items-author div {
+  display: flex;
+align-items: center;
+margin-left: 20px;
+
+
+}
+.items-author div h4 {
+  margin: 0 13px;
+  
+}
+
+.nft-author h4{
+  color: var(--softblue);
+  font-weight: 400;
+  font-size: 13px;
+}
+.nft-author b{
+  color: var(--white);
+  font-weight: 400;
+}
+.nft-author img{
+  
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.page-content {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .wrap-content {
+    padding-bottom: 2.5rem;
+  }
+  .attribution {
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    color: var(--white);
+    text-decoration: underline;
+  }
+  .attribution a {
+    color: var(--softblue);
+  }
