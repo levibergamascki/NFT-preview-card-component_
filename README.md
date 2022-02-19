@@ -79,7 +79,6 @@ In this project I learned more about some CSS stuff, like root.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@levibergamascki](https://www.frontendmentor.io/profile/levibergamascki)
+- Twitter - [@levibergamascki](https://www.twitter.com/levibergamascki)
 
